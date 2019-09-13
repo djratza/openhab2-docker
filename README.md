@@ -1,3 +1,7 @@
+curl -sSL https://get.docker.com | sh
+
+sudo usermod -aG docker pi
+
 git clone https://github.com/djratza/openhab2-docker.git
 
 tar -xvzf openahn2.tar.gz
